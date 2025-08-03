@@ -116,7 +116,7 @@ curl -X GET "http://localhost:8080/users/nonexistentuser123/repos"
 
 The GitHub API has strict rate limits:
 - **Unauthenticated**: 60 requests/hour per IP
-- **Authenticated**: 5000 requests/hour
+- **Authenticated**: 5000 requests/hour 
 
 To authenticate:
 1. Create Personal Access Token on GitHub
